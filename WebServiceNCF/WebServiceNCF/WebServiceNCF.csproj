@@ -92,15 +92,18 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="Service1.svc" />
     <Content Include="Web.config" />
+    <Content Include="WebServiceNCF.asmx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Service1.svc.cs">
-      <DependentUpon>Service1.svc</DependentUpon>
-    </Compile>
-    <Compile Include="IService1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\DataParam.cs" />
+    <Compile Include="Service\DbService.cs" />
+    <Compile Include="Service\ResponseMsg.cs" />
+    <Compile Include="WebServiceNCF.asmx.cs">
+      <DependentUpon>WebServiceNCF.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
