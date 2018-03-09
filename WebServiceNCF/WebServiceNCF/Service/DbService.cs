@@ -39,7 +39,7 @@ namespace WebServiceNCF.Service
 
                         _DbCommand.CommandText = "dbo.udfGetSecuenciaNCF";
 
-                        _DbCommand.Parameters.Add(new SqlParameter() { ParameterName = "@@tipo_comprobante", SqlDbType = SqlDbType.VarChar, Value = TipoSecuencia });
+                        _DbCommand.Parameters.Add(new SqlParameter() { ParameterName = "@tipo_comprobante", SqlDbType = SqlDbType.VarChar, Value = TipoSecuencia });
 
                         _DbCommand.Parameters.Add(new SqlParameter() { ParameterName = "@sistema", SqlDbType = SqlDbType.VarChar, Value = Sistema });
 
