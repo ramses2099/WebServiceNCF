@@ -337,4 +337,7 @@ END
 -- Select rows from a Table or View 'TableOrViewName' in schema 'SchemaName'
 SELECT * FROM dbo.TipoSecuencia;
 
+
+
+
 SELECT * FROM dbo.Secuencia;
