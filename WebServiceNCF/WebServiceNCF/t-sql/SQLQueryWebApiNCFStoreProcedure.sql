@@ -8,7 +8,7 @@ ALTER PROCEDURE [dbo].[udfGetSecuenciaNCF]
 	@sistema bigint,
 	@numero_factura varchar(50) 
 AS
-
+--yrdyr
 	--DECLARE @sistema bigint;
 	--DECLARE @numero_factura varchar(50); 
 
