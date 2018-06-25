@@ -5,6 +5,28 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceNCF", "WebServiceNCF\WebServiceNCF.csproj", "{4DBEAB44-C023-4F34-96D8-6E5F1827D1B4}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSiteClientNCFReserva", "..\..\WebSiteClientNCFReserva\", "{7B7B4534-549F-4863-8A61-FC1895DE7E36}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59017"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSiteClientNCFReserva\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59017\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59017"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSiteClientNCFReserva\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59017\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59017"
+		SlnRelativePath = "..\..\WebSiteClientNCFReserva\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +37,10 @@ Global
 		{4DBEAB44-C023-4F34-96D8-6E5F1827D1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DBEAB44-C023-4F34-96D8-6E5F1827D1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DBEAB44-C023-4F34-96D8-6E5F1827D1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7B4534-549F-4863-8A61-FC1895DE7E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7B4534-549F-4863-8A61-FC1895DE7E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7B4534-549F-4863-8A61-FC1895DE7E36}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7B4534-549F-4863-8A61-FC1895DE7E36}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
