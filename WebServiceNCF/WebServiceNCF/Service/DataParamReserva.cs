@@ -5,11 +5,9 @@ using System.Web;
 
 namespace WebServiceNCF.Service
 {
-	public class DataParam
-	{
+    public class DataParamReserva
+    {
         public String TipoSecuencia { get; set; }
-        public String Sistema { get; set; }
-        public String NumeroFactura { get; set; }
-        public int IsReserva { get; set; }
+        public int CantidadReserva { get; set; }
     }
 }

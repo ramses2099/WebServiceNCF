@@ -100,8 +100,10 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\DataParam.cs" />
+    <Compile Include="Service\DataParamReserva.cs" />
     <Compile Include="Service\DbService.cs" />
     <Compile Include="Service\ResponseMsg.cs" />
+    <Compile Include="Service\ResponseMsgReserva.cs" />
     <Compile Include="WebServiceNCF.asmx.cs">
       <DependentUpon>WebServiceNCF.asmx</DependentUpon>
       <SubType>Component</SubType>
