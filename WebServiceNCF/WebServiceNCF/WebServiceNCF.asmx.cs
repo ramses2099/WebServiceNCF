@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Script.Services;
 using System.Web.Services;
 using WebServiceNCF.Service;
 
@@ -14,18 +15,18 @@ namespace WebServiceNCF
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
-    [System.Web.Script.Services.ScriptService]
+    //[System.Web.Script.Services.ScriptService]
     public class WebServiceNCF : System.Web.Services.WebService
     {
 
-        [WebMethod]
+        [WebMethod]        
         public Service.ResponseMsg GetNCF(DataParam param)
         {
 
             ResponseMsg response = null;
             try
             {
-                if (param.IsReserva != 1)
+                if (param.IsReserva != "1")
                 {
                     response = DbService.executeTransaction(param.TipoSecuencia, param.Sistema, param.NumeroFactura);
                 }
@@ -42,7 +43,7 @@ namespace WebServiceNCF
             return response;
         }
         //
-        [WebMethod]
+        [WebMethod]       
         public Service.ResponseMsgReserva GetReservaNCF(DataParamReserva param)
         {
 
@@ -58,8 +59,6 @@ namespace WebServiceNCF
 
             return response;
         }
-
-
-
+        
     }
 }

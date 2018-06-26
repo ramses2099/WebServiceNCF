@@ -10,6 +10,6 @@ namespace WebServiceNCF.Service
         public String TipoSecuencia { get; set; }
         public String Sistema { get; set; }
         public String NumeroFactura { get; set; }
-        public int IsReserva { get; set; }
+        public String IsReserva { get; set; }
     }
 }
